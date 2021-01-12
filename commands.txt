@@ -1,1 +1,4 @@
 //
+apt-get update -y
+
+apt-get install pgadmin4 pgadmin4-apache2 -y
