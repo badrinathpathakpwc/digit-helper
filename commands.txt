@@ -8,3 +8,8 @@ sudo systemctl status postgresql
 
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
 sudo apt-get install pgadmin4 pgadmin4-apache2 -y
+
+//If error comes while overwrting
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/pgadmin4-web_4.24_all.deb
+
+sudo apt-get -f install
