@@ -1,0 +1,19 @@
+10.150.219.254  SUJOGPRDK8MST01.osdc.gov.in     sujogprdk8mst01.osdc.gov.in     sujogprdk8mst01
+10.150.219.253  SUJOGPRDK8MST02.osdc.gov.in     sujogprdk8mst02.osdc.gov.in     sujogprdk8mst02
+10.150.219.252  SUJOGPRDK8MST03.osdc.gov.in     sujogprdk8mst03.osdc.gov.in     sujogprdk8mst03
+10.150.219.251  SUJOGPRDK8VIPETCD.osdc.gov.in   sujogprdk8vipetcd.osdc.gov.in   sujogprdk8vipetcd
+10.150.219.250  SUJOGPRDK8WRK01.osdc.gov.in     sujogprdk8wrk01.osdc.gov.in     sujogprdk8wrk01
+10.150.219.249  SUJOGPRDK8WRK02.osdc.gov.in     sujogprdk8wrk02.osdc.gov.in     sujogprdk8wrk02      
+10.150.219.248  SUJOGPRDK8WRK03.osdc.gov.in     sujogprdk8wrk03.osdc.gov.in     sujogprdk8wrk03
+10.150.219.247  SUJOGPRDK8WRK04.osdc.gov.in     sujogprdk8wrk04.osdc.gov.in     sujogprdk8wrk04      
+10.150.219.246  SUJOGPRDK8APPDB01.osdc.gov.in   sujogprdk8appdb01.osdc.gov.in   sujogprdk8appdb01   
+10.150.219.245  SUJOGPRDK8APPDB02.osdc.gov.in   sujogprdk8appdb02.osdc.gov.in   sujogprdk8appdb02
+10.150.219.244  SUJOGPRDK8APPDB03.osdc.gov.in   sujogprdk8appdb03.osdc.gov.in   sujogprdk8appdb03     
+10.150.219.243  SUJOGPRDK8APPDBVIP.osdc.gov.in  sujogprdk8appdbvip.osdc.gov.in  sujogprdk8appdbvip
+10.150.219.242  SUJOGPRDK8BAST01.osdc.gov.in    sujogprdk8bast01.osdc.gov.in    sujogprdk8bast01 
+
+10.150.219.241  SUJOGPRDK8LBHAPRXY01.osdc.gov.in  sujogprdk8lbhaprxy01.osdc.gov.in  sujogprdk8lbhaprxy01
+10.150.219.240  SUJOGPRDK8LBHAPRXY02.osdc.gov.in  sujogprdk8lbhaprxy02.osdc.gov.in  sujogprdk8lbhaprxy02
+
+10.150.219.239  SUJOGPRDK8LBHAPRXYvip.osdc.gov.in  sujogprdk8lbhaprxyvip.osdc.gov.in  sujogprdk8lbhaprxyvip
+
