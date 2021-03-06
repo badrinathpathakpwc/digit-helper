@@ -1,3 +1,4 @@
+kubectl delete namespaces backbone es-cluster egov  logging  monitoring  playground infra swmpoc kafka-cluster zookeeper-cluster es-cluster-infra cert-manager
 namespace/backbone created
 namespace/es-cluster created
 namespace/egov created
