@@ -1,3 +1,33 @@
+namespace/backbone created
+namespace/es-cluster created
+namespace/egov created
+namespace/logging created
+namespace/monitoring created
+namespace/playground created
+namespace/infra created
+namespace/swmpoc created
+namespace/kafka-cluster created
+namespace/zookeeper-cluster created
+namespace/es-cluster-infra created
+namespace/cert-manager created
+configmap/egov-config created
+configmap/kafka-config created
+configmap/logging-config created
+configmap/jaeger-configuration created
+configmap/elasticsearch-v1 created
+configmap/es-curator-config created
+secret/egov-notification-sms created
+secret/db created
+secret/egov-wordpress-portal-db created
+secret/egov-filestore created
+secret/egov-location created
+secret/egov-pg-service created
+secret/egov-enc-service created
+secret/egov-notification-mail created
+secret/git-creds created
+service/egov-user created
+deployment.apps/egov-user created
+
 //
 sudo apt-get update -y
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
