@@ -29,3 +29,6 @@ kubectl get pods -n egov
 kubectl delete deployment egov-user -n egov
 cd ../scripts/
 python applyDev.py -m egov-user -e od-dev -conf -secret
+
+sudo apt-get install build-essential
+sudo apt-get install python-dev
