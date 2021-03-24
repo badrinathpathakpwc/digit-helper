@@ -86,7 +86,8 @@ public class Email {
 
          System.out.println("Sent message successfully....");
 
-      } catch (MessagingException e) {
+      } catch (Exception e) {
+        System.out.println(e);
          throw new RuntimeException(e);
       }
    }
