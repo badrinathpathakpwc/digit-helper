@@ -40,6 +40,10 @@ sudo systemctl status postgresql
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
 sudo apt-get install pgadmin4 pgadmin4-apache2 -y
 
+curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+sudo apt install pgadmin4
+
 //If error comes while overwrting
 sudo dpkg -i --force-overwrite /var/cache/apt/archives/pgadmin4-web_4.24_all.deb
 
