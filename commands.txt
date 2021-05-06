@@ -1,35 +1,3 @@
-kubectl delete namespaces backbone es-cluster egov  logging  monitoring  playground infra swmpoc kafka-cluster zookeeper-cluster es-cluster-infra cert-manager
-namespace/backbone created
-namespace/es-cluster created
-namespace/egov created
-namespace/logging created
-namespace/monitoring created
-namespace/playground created
-namespace/infra created
-namespace/swmpoc created
-namespace/kafka-cluster created
-namespace/zookeeper-cluster created
-namespace/es-cluster-infra created
-namespace/cert-manager created
-configmap/egov-config created
-configmap/kafka-config created
-configmap/logging-config created
-configmap/jaeger-configuration created
-configmap/elasticsearch-v1 created
-configmap/es-curator-config created
-secret/egov-notification-sms created
-secret/db created
-secret/egov-wordpress-portal-db created
-secret/egov-filestore created
-secret/egov-location created
-secret/egov-pg-service created
-secret/egov-enc-service created
-secret/egov-notification-mail created
-secret/git-creds created
-service/egov-user created
-deployment.apps/egov-user created
-
-//
 sudo apt-get update -y
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
 echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" | tee  /etc/apt/sources.list.d/pgdg.list
@@ -37,12 +5,16 @@ sudo apt-get update -y
 sudo apt-get install postgresql postgresql-contrib -y
 sudo systemctl status postgresql
 
+//not required
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
 sudo apt-get install pgadmin4 pgadmin4-apache2 -y
 
+// For pgadmin
 curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
 sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
 sudo apt install pgadmin4
+sudo /usr/pgadmin4/bin/setup-web.sh
+
 
 //If error comes while overwrting
 sudo dpkg -i --force-overwrite /var/cache/apt/archives/pgadmin4-web_4.24_all.deb
